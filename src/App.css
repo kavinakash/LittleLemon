@@ -21,6 +21,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 nav ul li {
@@ -310,4 +311,47 @@ footer ul li{
 
 .hidden{
   display: none;
+}
+
+.testimonial-container{
+  background-color: #495E57;
+  margin: 5px auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-between;
+}
+
+.testimonial-container h1{
+  color: #EDEFEE;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
+
+.testimonial-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tcard{
+  background-color: #c0c8c5;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.tcard p {
+  margin: 15px; 
+}
+
+.tcard h3{
+  margin-top: 10px;
+  margin-bottom: 3px; 
 }
